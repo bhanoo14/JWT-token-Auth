@@ -1,0 +1,22 @@
+{
+  "name": "jsonwebtoken",
+  "version": "1.0.0",
+  "description": "authenctication system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "auth",
+    "login-system"
+  ],
+  "author": "Bhaanoo Vishwakarma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.3"
+  }
+}
